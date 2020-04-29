@@ -1,7 +1,7 @@
 /* css */
 
 * {
-    outline: 1px solid red
+outline: 1px dotted lime;
 }
 
 /*PHONE ADJUSTMENTS*/
@@ -106,14 +106,9 @@ body {
     
 }
 
-.picture1 .picture2 .picture3 .picture4 .picture5 .picture6 .picture7 .picture8 {
-    object-fit: contain;
-    overflow: hidden;
-    text-align: center;
-    grid-column: 1/4
+me.png { 
+
 }
-
-
 
 
 
