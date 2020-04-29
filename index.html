@@ -11,18 +11,20 @@
     </head>
     
  
-<!-- Header SECTION -->
+<!-- HEADER SECTION -->
+    
 <body>
     <div class="header">
-        <div class="nav">
             <div class="logo">
                 Ryan O'Connor
             </div>
+        
 <!-- SIDE NAV BAR-->
+        
     <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Portfolio</a>
-                <a href="#">About</a>
+                <a href="#work">Portfolio</a>
+                <a href="#about">About</a>
                 <a href="#">Contact</a>
             </div> 
                 <span style="font-size:30px;cursor:pointer;float:right;" onclick="openNav()">&#9776;</span>
@@ -38,14 +40,13 @@
             </script>
             
         </div>
-    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-    <div class="work">
+    <div id="work">
         <div class="pictures">
             <a data-fancybox="gallery" href="picture1.JPG"><img src="picture.d1.png" style="width:100%; height:100%;"></a>
             
@@ -62,26 +63,108 @@
             <a data-fancybox="gallery" href="picture7.png"><img src="picture.d7.png" style="width:100%; height:100%;" ></a>
             
             <a data-fancybox="gallery" href="picture8.png"><img src="picture.d8.png" style="width:100%; height:100%;" ></a>
-        
-        
         </div>
-    
-    
-    </div>
-    
-    <div class="about">
-        <h3>About Me</h3>
-        
-        <img src="me.png">
-    
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet metus ac mollis pulvinar. Phasellus ullamcorper justo vitae augue scelerisque cursus. Etiam eget massa ullamcorper, malesuada libero vitae, feugiat felis. Mauris augue dolor, tincidunt quis fringilla et, lacinia suscipit metus. Etiam et diam vitae nunc fermentum placerat eget quis leo. Nunc ut sapien faucibus urna accumsan consequat sed vel ipsum. Suspendisse convallis arcu eu turpis consectetur, a congue dolor malesuada. Maecenas lorem quam, gravida ac odio et, imperdiet lacinia libero. Vestibulum feugiat aliquam ligula. Duis ultricies porta nulla id rutrum. Fusce euismod, elit dictum vestibulum varius, quam lorem mattis justo, eget ullamcorper massa tellus viverra lacus. Proin iaculis, est ac mollis gravida, odio lacus vehicula ante, ac dignissim magna dui eget tellus. Donec id egestas dui, eget feugiat nulla.
-        </p>
-    
-    
-    
     </div>
 
+<!--ABOUT-->
+    
+    <div id="about"></div>
+    
+    <div id="abouts">
+        <h3>About Me</h3>
+            <div class="me"><img src="me.png">
+        </div>
+       
+    
+        <p>
+            My name is Ryan O'Connor and I enjoy isdjbuv ijsdbfv i;djbz kjbfdibiv lzuebfv xilzjb vdsuhv iusdhv aiuefg eiushg apeuigh laiesufgh aipuerfgh apiurfh sdjkzhvb ae ifgyalieudfgh apiruef aliurfh equat sed vel ipsum. Suspendisse convallis arcu eu turpis consectetur, a congue dolor malesuada. Maecenas lorem quam, gravida ac odio et, imperdiet lacinia libero. Vestibulum feugiat aliquam ligula. Duis ultricies porta nulla id rutrum. Fusce euismod, elit dictum vestibulum varius, quam lorem mattis justo, eget ullamcorper massa tellus viverra lacus. Proin iaculis, est ac mollis gravida, odio lacus vehicula ante, ac dignissim magna dui eget tellus. Donec id egestas dui, eget feugiat nulla.
+        </p>
+        <p>
+            email: ryanoconnorrrr@gmail.com
+        </p>
+        <p>
+            phone: 02041107688
+        </p>
+    
+        
+<hr class="divider">
+        
+      <h4 class="skills">Skills</h4>
+        <p class="wide">Photography</p>
+            <div class="bar">
+                <div class="percent" style="width:70%">70%</div>
+            </div>
+        
+        <p class="wide">Web Design</p>
+            <div class="bar">
+                <div class="percent" style="width:10%">10%</div>
+            </div>
+        
+        <p class="wide">Photoshop</p>
+            <div class="bar">
+                <div class="percent" style="width:80%">80%</div>
+            </div>
+        
+        <p class="wide">clothing</p>
+            <div class="bar">
+                <div class="percent" style="width:80%">80%</div>
+            </div>
+    </div>
+    
+<hr class="divider">
+    
+<!-- CONTACT -->
+    
+  <div class="contact" id="contact">
+    <div class="details" style="max-width:600px">
+      <h4 class="contactme"><b>Contact Me</b></h4>
+      <p2>Fill out the form and fill me in with the details :) tell me how janky this website is</p2>
+      <form action="/action_page.php" target="_blank">
+        <div class="name">
+          <label>Name</label>
+          <input class="required" type="text" name="Name" required>
+        </div>
+        <div class="emil">
+          <label>Email</label>
+          <input class="required" type="text" name="Email" required>
+        </div>
+        <div class="message">
+          <label>Message</label>
+          <input class="required" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="button">Send Message</button>
+      </form>
+    </div>
+  </div>
+    
+    
+    
+<!-- FOOTER -->
+    
+  <footer class="footcontainer">  
+    <div class="rows">
+      <div class="extrainfo">
+        <h3>More Info</h3>
+        <p>janky ass website, chur some more socials </p>
+         <div id="insta"><a href="https://www.instagram.com/ryanoconnorrrr/"><img src="insta.png" alt= "insta link" height="30" width="30" ></a>
+          </div>
+          
+          <div id="facebook"><a href="https://www.facebook.com/ryan.oconnor.54"><img src="facebook.png" alt= "facebook link" height="30" width="30" ></a></div>
+        
+          <div id="tumblr"><a href="https://ryanocspace.tumblr.com/"><img src="tumblr.png" alt= "tumblr link" height="30" width="30" ></a>
+          </div>
+       
+      </div>
+    
+        
+       
+  
+       
+      </div>
+
+  </footer>
+  
+  <div class="foot">Powered by ryan o</div>
   
 </body>
     

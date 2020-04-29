@@ -35,23 +35,20 @@ body {
 
 .header {
     background-color: black;
+    width: 100%;
     color: white;
     margin: auto;
-    }
-
-.nav {
-    grid-template-columns: auto;
-    height: 90px;
+    position: fixed;
     }
 
 .logo {
-    margin-top: auto;
-    font-size: 2rem;
+    float: left;
+    font-size: 1.5rem;
+    padding: 10px;
     }
 
 
 /* side nav bar */
-
 .sidenav {
   height: 100%;
   width: 0;
@@ -95,7 +92,7 @@ body {
 
 .work {
     margin: auto;
-    background-color: white;
+    background-color: black;
     }
 
 .pictures {
@@ -103,12 +100,152 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     object-fit:fill;
+    }
+
+/*about page*/
+
+#about {
+    padding: 20px;
+    background-color: black
+    }
+
+h3 {
+    font-size: 1.4em;
+    margin-top: 1.8em;
+    text-align: center;
+    }
+
+.me {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    text-align: center;
+     
+    }
+
+p {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+    }
+
+p2 {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    
+    }
+
+
+.divider {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+
+.skills {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    }
+
+.bar {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: auto;
+    }
+
+.wide {
     
 }
 
-me.png { 
+.percent{
+    background-color: grey; 
+    }
 
+/*contact*/
+
+.contactme {
+    font-size: 1.4em;
+    margin-top: 1.8em;
+    text-align: center;
+    }   
+
+
+#contact {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    }
+
+
+.contact {
+    
+    
+}
+
+.name {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.email {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.message {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.required{
+    max-width: 100%;
+}
+
+.button {
+    
 }
 
 
+.details {
+    grid-row: auto;
+}
+
+/*footer*/
+
+.footcontainer {
+    
+}
+
+.rows {
+    
+    
+}
+
+.extrainfo {
+    
+}
+
+
+
+.foot {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
 
