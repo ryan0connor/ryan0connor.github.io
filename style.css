@@ -1,6 +1,8 @@
-/* css */
+/*CSS*/
 
-
+{
+outline: 1px dotted lime;
+}
 
 /*PHONE ADJUSTMENTS*/
 
@@ -23,8 +25,7 @@ body {
     16 / 17
     }
 
-
-/*header*/
+/*HEADER*/
 
 body {
     background-color: #F2F2F2;
@@ -45,33 +46,33 @@ body {
     padding: 10px;
     }
 
+/*SIDE NAV BAR*/
 
-/* side nav bar */
 .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
 
 .sidenav a:hover {
-  color: #f1f1f1;
-}
+    color: #f1f1f1;
+    }   
 
 .sidenav .closebtn {
   position: absolute;
@@ -79,14 +80,14 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-}
+    }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    }
 
-/* portfolio*/
+/*PORTFOLIO*/
 
 .work {
     margin: auto;
@@ -100,7 +101,7 @@ body {
     object-fit:fill;
     }
 
-/*about page*/
+/*ABOUT*/
 
 #about {
     padding: 20px;
@@ -117,8 +118,7 @@ h3 {
     width: 100%;
     height: auto;
     padding: 20px 0;
-    text-align: center;
-     
+    text-align: center;   
     }
 
 p {
@@ -126,14 +126,12 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 150px;
-    padding-right: 150px;
-    
+    padding-right: 150px;  
     }
 
 p2 {
     padding-top: 10px;
-    padding-bottom: 10px; 
-    
+    padding-bottom: 10px;    
     }
 
 
@@ -159,95 +157,90 @@ p2 {
     }
 
 .wide {
-
-}
-
-.percent{
-    background-color: grey; 
-    max-width: inherit;
+    display: block;
     }
 
-/*contact*/
+.percent{
+    display: block;
+    background-color: grey; 
+    max-width: inherit; 
+    }
+
+/*CONTACT*/
 
 .contact {
-    background-color: gray
-}
+    background-color: gray;
+    }
 
 .details {
-   margin: auto;
+    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-
-}
+    display: block;
+    }
 
 .name {
-    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-   
-}
+    box-sizing: inherit;
+    }
 
 .email {
-    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+    box-sizing: inherit;
+    }
 
 .message {
-    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+    box-sizing: inherit;
+    }
 
-.required{
-    max-width: 100%;
-}
+.required {
+    width: 96%;
+    margin: 0;
+    border: 1px solid gray;
+    padding: 8px;
+    box-sizing: inherit;
+    }
 
 .button {
-    
-}
+    display: block;
+    width: 100%;  
+    }
 
 
 .details {
-    grid-row: auto;
-}
+    margin: auto;
+    }
 
-/*footer*/
-
-.footcontainer {
-    
-}
+/*FOOTER*/
 
 .rows {
-    margin: auto;
-
-    
-}
+    margin: auto;   
+    }
 
 .moreinfo {
     margin: auto;
     text-align: center;
-}
+    }
 
 .socials {
     display: block;
-    
-}
+    }
 
 #insta {
-    text-align: center;
-    
-}
+    padding: 8px;
+    }
 
 #facebook {
-    text-align: center;
-    
-}
+    padding: 8px;
+    }
 
 #tumblr {
-    text-align: center;
-}
-
+    padding: 8px;
+    }
 
 .foot {
     margin: auto;
@@ -256,5 +249,5 @@ p2 {
     text-align: center;
     background-color: black;
     color: white;
-}
+    }
 
