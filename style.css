@@ -1,8 +1,6 @@
 /* css */
 
-* {
-outline: 1px dotted lime;
-}
+
 
 /*PHONE ADJUSTMENTS*/
 
@@ -133,7 +131,6 @@ p {
     }
 
 p2 {
-    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px; 
     
@@ -155,40 +152,32 @@ p2 {
     }
 
 .bar {
+    display: block;
     padding-left: 150px;
     padding-right: 150px;
     margin: auto;
     }
 
 .wide {
-    
+
 }
 
 .percent{
     background-color: grey; 
+    max-width: inherit;
     }
 
 /*contact*/
 
-.contactme {
-    font-size: 1.4em;
-    margin-top: 1.8em;
-    text-align: center;
-    }   
+.contact {
+    background-color: gray
+}
 
-
-#contact {
-    margin: auto;
+.details {
+   margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 150px;
-    padding-right: 150px;
-    }
 
-
-.contact {
-    
-    
 }
 
 .name {
@@ -230,14 +219,34 @@ p2 {
 }
 
 .rows {
-    
+    margin: auto;
+
     
 }
 
-.extrainfo {
+.moreinfo {
+    margin: auto;
+    text-align: center;
+}
+
+.socials {
+    display: block;
     
 }
 
+#insta {
+    text-align: center;
+    
+}
+
+#facebook {
+    text-align: center;
+    
+}
+
+#tumblr {
+    text-align: center;
+}
 
 
 .foot {
